@@ -31,5 +31,7 @@ func main() {
 		api.GET("/download/:key", handlers.DownloadFile)
 	}
 
-	r.Run(":8080")
+	if err := r.Run(":8080"); err != nil {
+		panic(err)
+	}
 }

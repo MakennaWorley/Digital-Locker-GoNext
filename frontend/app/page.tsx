@@ -1,5 +1,5 @@
-import VaultDashboard from '@/components/VaultDashboard'
+import VaultDashboard from '@/components/VaultDashboard';
 
 export default function Home() {
-  return <VaultDashboard />
+	return <VaultDashboard />;
 }
